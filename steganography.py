@@ -43,6 +43,6 @@ def decrypt(img):
     a=chr(int(a, 2))
     msg+=a
   if msg[:len(prefix)]!=prefix:
-    print('Corrupt')
+    # print('Corrupt')
     return
   return msg[len(prefix):]
