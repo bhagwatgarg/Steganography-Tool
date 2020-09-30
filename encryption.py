@@ -47,6 +47,6 @@ def padding(s, n=16):
 
 def rmv_padding(s):
   for i in reversed(range(len(s))):
-    print(s[i])
+    # print(s[i])
     if s[i]=='1':
       return s[:i]
